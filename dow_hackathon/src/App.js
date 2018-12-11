@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Calendar from './components/Calendar';
-import Stream from "./components/Stream/stream";
+import Stream from "./components/Stream";
+import Meeting from "./components/Meeting";
 import Legend from './components/Legend';
 import Event from './components/EventFeed';
 import dow_logo from './dow_logo.png';
@@ -17,18 +18,18 @@ class App extends Component {
           <WorldClock/>
         </header>
         <div className="mdl-grid">
-          <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> 
-            <Event />
-          </div>
-          <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
-            <div className="CalendarContainer">
-                <Calendar/>
-                <Legend/>
-              </div> 
-            </div>
-          <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
-              <Stream/>
-          </div>
+
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> <Event /></div>
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+        <div className="CalendarContainer">
+            <Calendar/>
+            <Legend/>
+          </div> 
+        </div>
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+            <Stream/>
+            <Meeting />
+        </div>
         </div>
         <footer className="App-footer">
         </footer>
