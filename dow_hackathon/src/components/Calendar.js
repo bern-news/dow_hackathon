@@ -11,10 +11,32 @@ class Calendar extends Component {
         return (  
         <InfiniteCalendar
             width={400}
-            height={600}
+            height={300}
             selected={today}
             disabledDays={[0,6]}
             minDate={lastWeek}
+            theme={{
+                accentColor: '#233750',
+                floatingNav: {
+                  background: '#233750',
+                  chevron: '#FFA726',
+                  color: '#FFF',
+                },
+                headerColor: '#233750',
+                selectionColor: '#233750',
+                textColor: {
+                  active: '#FFF',
+                  default: '#333',
+                },
+                todayColor: '#FFA726',
+                weekdayColor: '#233750',
+              }}
+            displayOptions={{
+                showHeader: false,
+                showOverlay: false,
+                shouldHeaderAnimate: false,
+                todayHelperRowOffset: 0
+              }}
         />
         )
     }
