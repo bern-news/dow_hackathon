@@ -1,0 +1,8 @@
+.Cal__Month__rows {
+    background: #233750;
+}
+
+.Cal__Container__listWrapper .Cal__Month__rows .Cal__Month__row.Cal__Month__partial li{
+    background: #233750;
+    box-shadow: none;
+}

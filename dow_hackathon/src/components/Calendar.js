@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import InfiniteCalendar from 'react-infinite-calendar';
 import 'react-infinite-calendar/styles.css'; // only needs to be imported once
+import './calendar.css'
 
 // Render the Calendar
 var today = new Date();
@@ -23,10 +24,10 @@ class Calendar extends Component {
                   color: '#FFF',
                 },
                 headerColor: '#233750',
-                selectionColor: '#233750',
+                selectionColor: '#FFA726',
                 textColor: {
                   active: '#FFF',
-                  default: '#333',
+                  default: '#FFF',
                 },
                 todayColor: '#FFA726',
                 weekdayColor: '#233750',
