@@ -20,6 +20,9 @@
     -webkit-filter: invert(100%); /* safari 6.0 - 9.0 */
           filter: invert(100%);
     background-size: 19px;
+    font-size: 16pt;
+    color:transparent;
+    padding-right:15px;
 }
 
 .omniSearch:focus {
@@ -28,4 +31,5 @@
     background-size: 19px;
     -webkit-filter: invert(0%); /* safari 6.0 - 9.0 */
           filter: invert(0%);
+    color: rgb(53, 53, 53);
 }
