@@ -9,46 +9,47 @@ class EventFeed extends React.Component {
 
   render() {
     return (
-      <section className="">
-      <div className="headingTable">
-      <h1> FEED OF EVENTS </h1>
-      </div>
-      <div>
-      <ul class="demo-list-two mdl-list">
-  <li class="mdl-list__item mdl-list__item--two-line">
-    <span class="mdl-list__item-primary-content">
-      <i class="material-icons mdl-list__item-avatar">person</i>
-      <span>Bryan Cranston</span>
-      <span class="mdl-list__item-sub-title">62 Episodes</span>
-    </span>
-    <span class="mdl-list__item-secondary-content">
-      <span class="mdl-list__item-secondary-info">Actor</span>
-      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-    </span>
-  </li>
-  <li class="mdl-list__item mdl-list__item--two-line">
-    <span class="mdl-list__item-primary-content">
-      <i class="material-icons mdl-list__item-avatar">person</i>
-      <span>Aaron Paul</span>
-      <span class="mdl-list__item-sub-title">62 Episodes</span>
-    </span>
-    <span class="mdl-list__item-secondary-content">
-      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-    </span>
-  </li>
-  <li class="mdl-list__item mdl-list__item--two-line">
-    <span class="mdl-list__item-primary-content">
-      <i class="material-icons mdl-list__item-avatar">person</i>
-      <span>Bob Odenkirk</span>
-      <span class="mdl-list__item-sub-title">62 Episodes</span>
-    </span>
-    <span class="mdl-list__item-secondary-content">
-      <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
-    </span>
-  </li>
-</ul>
-      </div>
-      </section>);
+        <section className="event-feed">
+            <div className="headingTable">
+                <h3>Upcoming events</h3>
+            </div>
+        <div>
+        <ul class="demo-list-two mdl-list">
+            <li class="mdl-list__item mdl-list__item--two-line">
+                <span class="mdl-list__item-primary-content">
+                    <i class="material-icons mdl-list__item-avatar">person</i>
+                    <span>Bryan Cranston</span>
+                    <span class="mdl-list__item-sub-title">62 Episodes</span>
+                </span>
+                 <span class="mdl-list__item-secondary-content">
+                    <span class="mdl-list__item-secondary-info">Actor</span>
+                    <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+                </span>
+            </li>
+        <li class="mdl-list__item mdl-list__item--two-line">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">person</i>
+        <span>Aaron Paul</span>
+        <span class="mdl-list__item-sub-title">62 Episodes</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+        </li>
+        <li class="mdl-list__item mdl-list__item--two-line">
+        <span class="mdl-list__item-primary-content">
+        <i class="material-icons mdl-list__item-avatar">person</i>
+        <span>Bob Odenkirk</span>
+        <span class="mdl-list__item-sub-title">62 Episodes</span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+        <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+        </li>
+        </ul>
+        </div>
+        </section>
+      );
   }
 }
 
