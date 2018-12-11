@@ -40,10 +40,16 @@ footer {
 
 }
 
+
+.footer-grid-profile-column-profile-div {
+
+  margin-top:10px;
+}
 .footer-grid-profile-column{
 
   border-right:thin solid grey;
 }
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
