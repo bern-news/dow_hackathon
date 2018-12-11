@@ -11,18 +11,14 @@ class Profile extends React.Component {
     
   render() {
     return (
-<div class="card">
-<i class="material-icons mdl-list__item-icon">person</i>
-  <h5>{this.props.name}</h5>
-  <p class="title">CEO & Founder, Example</p>
-  <p>Harvard University</p>
-  <div class="card-div">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
+<div className="w3-bar">
+ 
+<i class="material-icons mdl-list__item-icon w3-bar-item w3-circle w3-hide-small w3-bar-item w3-circle">person</i>
+  {/* <img src="img_avatar2.png" className="" /> */}
+  <div className="w3-bar-item">
+    <span className="w3-large">{this.props.name}</span><br/>
+    <span>Web Designer</span>
   </div>
-  <p><button>Contact</button></p>
 </div>
     );
   }

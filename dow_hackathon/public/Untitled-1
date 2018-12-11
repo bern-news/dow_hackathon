@@ -1,0 +1,125 @@
+      <div className="App">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+          <p>
+            Edit <code>src/App.js</code> and save to reload.
+          </p>
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn React
+          </a>
+        
+        </header>
+      </div>
+
+
+      <div className = "App mdl-grid" >
+      <div className = "mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" >
+      <EventFeed></EventFeed> 
+      <div> 
+      <div className = "mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" >
+      <Calendar> </Calendar> 
+      </div> 
+      <div className = "mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-phone" >
+      </div>
+    </div>
+
+
+    const React = require('react');
+
+class EventFeed extends React.Component {
+
+    constructor(props) {
+        super(props);
+    };
+
+    render() {
+
+        return <main className="demo-main">
+
+            <div className="mdl-cell mdl-cell--4-col  mdl-cell--8-col-tablet  mdl-cell--4-col-phone">
+
+                <table className="mdl-data-table mdl-js-data-table headingTable">
+                    <thead>
+                        <tr>
+                            <th className="mdl-data-table__cell--non-numeric">FEED OF EVENTS</th>
+                        </tr>
+                    </thead>
+                </table>
+
+                <div className="optionsContainer">
+
+                    <div className="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                        <input className="mdl-textfield__input filterTextbox" type="text" id="search"  />
+                        <label className="mdl-textfield__label" htmlFor="search">Search...</label>
+                    </div>
+
+                </div>
+
+                <div className="optionsContainer">
+
+
+                </div>
+
+            </div>
+
+        </main>
+
+    }
+}
+
+
+export default EventFeed;
+
+
+   <footer class="row">
+                <div class="column">
+                    <Profile imageSrc='images/clancy.png' />
+                </div>
+                <div class="column">
+                    <Profile imageSrc='images/paul.png' />
+                </div>
+                <div class="column">
+                    <Profile imageSrc='images/phillipa.png' />
+                </div>
+                <div class="column">
+                    <Profile imageSrc='images/phillipa.png' />
+                </div>
+                <div class="column">
+                    <Profile imageSrc='images/phillipa.png' />
+                </div>
+                <div class="column">
+                    <Profile imageSrc='images/phillipa.png' />
+                </div>
+               
+            </footer>
+
+
+            {/* <div class="card">
+<i class="material-icons mdl-list__item-icon">person</i>
+  <h5>{this.props.name}</h5>
+  <p class="title">CEO & Founder, Example</p>
+  <p>Harvard University</p>
+  <div class="card-div">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="#"><i class="fa fa-twitter"></i></a>  
+    <a href="#"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div> */}
+
+        <div className="w3-bar">
+    <i class="material-icons mdl-list__item-icon w3-bar-item w3-circle w3-hide-small">person</i>
+      <div className="w3-bar-item">
+        <span className="w3-large">Jane</span><br/>
+        <span>Accountant</span>
+      </div>
+        </div>
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

@@ -21,6 +21,29 @@
 
 }
   
+footer {
+
+  display: table;
+  width:100%;
+  bottom: 0;
+  position: absolute;
+ 
+
+}
+.footer-grid {
+
+  position:relative;
+  width:100%;
+  display: table-cell;
+  vertical-align:middle;
+
+
+}
+
+.footer-grid-profile-column{
+
+  border-right:thin solid grey;
+}
   /* Clear floats after the columns */
   .row:after {
     content: "";

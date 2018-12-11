@@ -6,22 +6,30 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div class="mdl-grid">
-            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-tablet"> 
-            <section class="row">
-                <div class="column">
-                    <Profile name='John Doe' />
-                </div>
-                <div class="column">
-                    <Profile name='Jane Doe'  />
-                </div>
-                <div class="column">
-                    <Profile name='James Doe'  />
-                </div>
-                </section>
+            <div className="mdl-grid footer-grid">
+            <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-tablet footer-grid-coloumn"> 
             
+            
+            <div className="mdl-grid">
+            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet footer-grid-profile-column "> 
+            
+            <Profile  name='Clancy' imageSrc='http://localhost:3000/images/clancy_bw.png'/>
             </div>
-            <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-tablet"> </div>
+
+            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet footer-grid-profile-column"> 
+            <Profile name='Paul' imageSrc='http://localhost:3000/images/paul_bw.png'/>
+            </div>
+
+            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet footer-grid-profile-column"> 
+            <Profile name='Phillipa' imageSrc='http://localhost:3000/images/phillipa_bw.png'/>
+            </div>
+
+            </div>
+
+
+
+            </div>
+            <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-tablet"> </div>
            
             </div>
         );
