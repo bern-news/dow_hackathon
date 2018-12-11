@@ -4,7 +4,7 @@ import './style.css'
 class OmniSearch extends Component {
 	render() {
 		return (
-			<input type="text" value="Search Anywhere" className="omniSearch"/>
+			<input type="text" name="Search Anywhere" className="omniSearch"/>
 		)
 	}
 }

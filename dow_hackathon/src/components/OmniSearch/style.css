@@ -1,12 +1,22 @@
 .omniSearch {
-    width: 40%;
-    height: 50%;
+    float: right;
+    display: inline-block;
+    text-align: right;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
     max-height: 100px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
 
+input.omniSearch {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 22px;
+}
+
 .omniSearch:focus {
-    width: 100%;
+    width: 80%;
 }
