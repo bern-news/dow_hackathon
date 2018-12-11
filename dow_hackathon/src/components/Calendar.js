@@ -11,7 +11,7 @@ class Calendar extends Component {
     render() {
         return (  
         <InfiniteCalendar
-            width={400}
+            width={'100%'}
             height={300}
             selected={today}
             disabledDays={[0,6]}
