@@ -11,8 +11,17 @@ class App extends Component {
         <header className="App-header">
           <img src={dow_logo} className="App-logo" alt="logo" />
         </header>
-        <Calendar/>
-        <Stream/>
+        <div className="mdl-grid">
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> </div>
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+            <Calendar/>
+        </div>
+        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+            <Stream/>
+        </div>
+        </div>
+        <footer className="App-footer">
+        </footer>
       </div>
     );
   }
