@@ -8,6 +8,8 @@ import dow_logo from './dow_logo.png';
 import WorldClock from './components/WorldClock/worldClock';
 import './App.css';
 import './components/calendar.css'
+import Footer from "./components/Footer";
+
 
 class App extends Component {
   render() {
@@ -36,8 +38,9 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <footer className="App-footer">
-        </footer>
+        <div>
+        <Footer/>
+        </div>
       </div>
     );
   }
