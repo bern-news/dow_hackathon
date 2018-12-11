@@ -1,0 +1,9 @@
+.worldClock ul {
+    display: inline-block;
+    list-style: none; 
+    font-size: 1em;
+}
+
+.worldClock li {
+    float: left;
+}

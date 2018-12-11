@@ -28,8 +28,8 @@ class Clock extends Component {
 		
 		return (
 			<div>
-				<h1>{this.props.name}</h1>
-				<h1>{h % 12}:{(m < 10 ? '0' + m : m)}:{(s < 10 ? '0' + s : s)} {h < 12 ? 'am' : 'pm'}</h1>
+				<p className="clock-name">{this.props.name}</p>
+				<p className="clock-time">{h % 12}:{(m < 10 ? '0' + m : m)}{h < 12 ? 'am' : 'pm'}</p>
 			</div>
 		)
 	}

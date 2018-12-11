@@ -1,15 +1,18 @@
 import React, { Component } from 'react';
 import Clock from '../Clock/clock';
+import './style.css';
 
 class WorldClock extends Component {
 
 	render() {
 		return (
-            <div>
-                <Clock offset='-5' name="New York"/>
-                <Clock offset='0' name="London"/>
-                <Clock offset='1' name="Barcelona"/>
-                <Clock offset='8' name="Hong Kong"/>
+            <div class="worldClock">
+                <ul>
+                    <li><Clock offset='-5' name="New York"/></li>
+                    <li><Clock offset='0' name="London"/></li>
+                    <li><Clock offset='1' name="Barcelona"/></li>
+                    <li><Clock offset='8' name="Hong Kong"/></li>
+                </ul>
             </div>
 		)
 	}

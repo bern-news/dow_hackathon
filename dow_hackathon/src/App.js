@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={dow_logo} className="App-logo" alt="logo" />
-          <WorldClock/>
+          <WorldClock className="worldClock"/>
         </header>
         <div className="mdl-grid">
 
