@@ -39,3 +39,8 @@ button:hover, a:hover {
   margin: 24px 0;
 }
 
+.profilePic {
+  max-height:90px; 
+  max-width:90px;
+
+}
