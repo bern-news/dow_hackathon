@@ -29,7 +29,6 @@ class App extends Component {
             <div className="CalendarContainer">
                 <Calendar/>
                 <Legend/>
-                <Custom />
               </div>
             </div>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
