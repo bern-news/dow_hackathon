@@ -1,9 +1,30 @@
+.worldClock {
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 1.3em;
+
+}
+
 .worldClock ul {
     display: inline-block;
     list-style: none; 
-    font-size: 1em;
+    margin: 6px 0px;
 }
 
 .worldClock li {
     float: left;
+}
+
+.worldClock li p {
+    display: inline-block;
+    height: 14px;
+    margin: 0px 4px 0px 0px;
+}
+
+.worldClock .clock-name {
+}
+
+.worldClock li .clock-time {
+    margin: 0px 20px 0px 0px;
+    font-weight: bold;
 }
