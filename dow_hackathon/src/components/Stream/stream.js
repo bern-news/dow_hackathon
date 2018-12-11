@@ -5,8 +5,8 @@ require('./style.css');
 
 const Stream = (props) => {
     return (
-        <Fragment>
-            <h1> DJ Academy </h1>
+        <section className="streamer">
+            <h3> DJ Academy </h3>
             <TextLoop>
                 <div className="stream stream__container">
                     <div className="stream--item">
@@ -78,7 +78,7 @@ const Stream = (props) => {
                     </div>
                 </div>
             </TextLoop>
-        </Fragment>
+        </section>
     )
 };
 

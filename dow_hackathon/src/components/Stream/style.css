@@ -1,5 +1,8 @@
-.stream {
-
+.streamer {
+    height: 600px;
+    background-color: #0092e1;
+    padding: 1px 20px;
+    border-radius: 4px;
 }
 
 .stream__container {
