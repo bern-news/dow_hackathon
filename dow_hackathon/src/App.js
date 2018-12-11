@@ -15,7 +15,7 @@ class App extends Component {
       <div className="App">
         <header className="dj-trending-header">
           <div className="mdl-grid">
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"></div>
+            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"/>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"><img src={dow_logo} className="App-logo" alt="logo" /></div>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"><WorldClock className="worldClock"/></div>
           </div>
@@ -27,11 +27,12 @@ class App extends Component {
             <div className="CalendarContainer">
                 <Calendar/>
                 <Legend/>
+                <Custom />
               </div>
             </div>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
                 <Stream/>
-                <Meeting />
+                <Custom />
             </div>
           </div>
         </div>
