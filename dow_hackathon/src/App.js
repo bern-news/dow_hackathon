@@ -4,7 +4,7 @@ import Stream from "./components/Stream";
 import Custom from "./components/Custom";
 import Legend from './components/Legend';
 import Event from './components/EventFeed';
-import dow_logo from './dow_logo.png';
+import dow_logo from './dlaunch.png';
 import WorldClock from './components/WorldClock/worldClock';
 import './App.css';
 import './components/calendar.css'
