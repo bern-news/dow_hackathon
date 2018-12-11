@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Calendar from './components/Calendar';
 import Stream from "./components/Stream";
-import Meeting from "./components/Meeting";
+import Custom from "./components/Custom";
 import Legend from './components/Legend';
 import Event from './components/EventFeed';
 import dow_logo from './dow_logo.png';
@@ -9,6 +9,7 @@ import WorldClock from './components/WorldClock/worldClock';
 import './App.css';
 import './components/calendar.css'
 import OmniSearch from './components/OmniSearch';
+import Footer from "./components/Footer";
 
 class App extends Component {
   render() {
@@ -28,16 +29,17 @@ class App extends Component {
             <div className="CalendarContainer">
                 <Calendar/>
                 <Legend/>
-              </div> 
+              </div>
             </div>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
                 <Stream/>
-                <Meeting />
+                <Custom />
             </div>
           </div>
         </div>
-        <footer className="App-footer">
-        </footer>
+        <div>
+        <Footer/>
+        </div>
       </div>
     );
   }
