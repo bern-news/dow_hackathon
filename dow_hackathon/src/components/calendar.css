@@ -6,3 +6,42 @@
     background: #233750;
     box-shadow: none;
 }
+
+.CalendarContainer {
+    background: #233750;
+    width: 33%;
+}
+
+.CalendarContainer .legend ul {
+    display: inline-block;
+    list-style: none; 
+}
+
+.CalendarContainer .legend li {
+    float: left;
+    width: 25%;
+    color: white;
+    text-align: left;
+}
+
+.CalendarContainer .legend li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: rgb(253, 143, 0); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
+
+.CalendarContainer .legend li:first-child::before {
+    color: rgb(188, 207, 11); /* Change the color */
+}
+
+.CalendarContainer .legend li:nth-child(3)::before {
+    color: rgb(35, 110, 250); /* Change the color */
+}
+
+.CalendarContainer .legend li:last-child::before {
+    color: rgb(243, 35, 250); /* Change the color */
+}
