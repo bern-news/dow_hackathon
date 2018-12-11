@@ -5,7 +5,9 @@ require('./style.css');
 const Stream = (props) => {
     return (
         <Fragment>
-            <h1> Meeting Planner </h1>
+            <div className="custom--component">
+                <p className="custom--component__text">Import your own component.</p>
+            </div>
         </Fragment>
     )
 };
