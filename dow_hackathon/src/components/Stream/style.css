@@ -6,11 +6,20 @@
 
 }
 
+.stream--image {
+    padding: 0.8rem;
+    opacity: 0.8;
+}
+
 .stream--item {
-    /*border: 1px solid blue;*/
+    text-align: left;
+    padding: 1rem;
+    cursor: pointer;
 }
 
 .stream--summary {
     font-size: 11px;
     opacity: 0.8;
+    display: block;
+    padding-left: 2.7rem;
 }
