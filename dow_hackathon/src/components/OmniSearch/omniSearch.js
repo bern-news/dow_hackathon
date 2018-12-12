@@ -49,7 +49,11 @@ class OmniSearch extends Component {
 			<Fragment>
 				<input type="text" name="Search Anywhere" className="omniSearch" onChange={this.handleOnChange} onBlur={this.handleOnBlur}/>
 				<div>
-					{results}
+					<ul>
+					{results.map((e, o) => {
+						return <li key={o}>{e}</li>;
+					})}
+					</ul>
 				</div>
 			</Fragment>
 
