@@ -3,6 +3,7 @@
     padding: 5rem;
     text-align: center;
     margin-top: 1rem;
+    border-radius: 3px;
 }
 
 .custom--component__text {
