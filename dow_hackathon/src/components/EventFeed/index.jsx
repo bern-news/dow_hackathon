@@ -59,8 +59,8 @@ class EventFeed extends React.Component {
                             <span class="mdl-list__item-sub-title">UK / USA- Public holiday</span>
                         </span>
                          <span class="mdl-list__item-secondary-content">
-                         <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-3">
-                                    <input type="checkbox" id="list-checkbox-3" class="mdl-checkbox__input"  />
+                         <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-4">
+                                    <input type="checkbox" id="list-checkbox-4" class="mdl-checkbox__input"  />
                                 </label>
                         </span>
                     </li>
@@ -71,8 +71,8 @@ class EventFeed extends React.Component {
                            <span class="mdl-list__item-sub-title">UK only - Public holiday</span>
                        </span>
                         <span class="mdl-list__item-secondary-content">
-                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-3">
-                                    <input type="checkbox" id="list-checkbox-3" class="mdl-checkbox__input"  />
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="list-checkbox-5">
+                                    <input type="checkbox" id="list-checkbox-5" class="mdl-checkbox__input"  />
                                 </label>
                        </span>
                    </li>

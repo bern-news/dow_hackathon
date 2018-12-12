@@ -9,9 +9,10 @@ import WorldClock from './components/WorldClock/worldClock';
 import './App.css';
 import './components/calendar.css'
 import OmniSearch from './components/OmniSearch';
-import Footer from "./components/Footer";
+import Footer from "./components/NewStarters";
 
 class App extends Component {
+
   render() {
     return (
       <div className="App">

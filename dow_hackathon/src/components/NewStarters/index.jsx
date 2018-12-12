@@ -10,7 +10,7 @@ class Footer extends React.Component {
             <h4 className="footer-grid-container-h1"> New Starters</h4>
             <div className="mdl-grid footer-grid">
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet  footer-grid-coloumn"> 
-            <Profile  name='Clancy' imageSrc='http://localhost:3000/images/doug.png' title="VP, Consumer Engineering"/>
+            <Profile  name='Doug' imageSrc='http://localhost:3000/images/doug.png' title="VP, Consumer Engineering"/>
            </div>
            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet  footer-grid-coloumn"> 
            <Profile name='Paul' imageSrc='http://localhost:3000/images/paul.png'  title="SVP, Engineering"/>
