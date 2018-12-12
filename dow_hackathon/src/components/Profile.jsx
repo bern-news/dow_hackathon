@@ -16,8 +16,8 @@ class Profile extends React.Component {
 <i class="material-icons mdl-list__item-icon w3-bar-item w3-circle w3-hide-small w3-bar-item w3-circle">person</i> */}
   <img src={this.props.imageSrc} className="profilePic w3-bar-item w3-circle" />
   <div className="w3-bar-item footer-grid-profile-column-profile-div">
-    <span className="w3-large">{this.props.name}</span><br/>
-    <span>Web Designer</span>
+    <span className="w3-large profilePic-span1 ">{this.props.name}</span><br/>
+    <span className="profilePic-span2">Web Designer</span>
   </div>
 </div>
     );
