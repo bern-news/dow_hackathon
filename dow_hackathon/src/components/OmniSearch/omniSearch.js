@@ -23,10 +23,21 @@ class OmniSearch extends Component {
             })
 		}
 
+        if (results.length === 2) {
+            return this.setState({
+                results: ['Document 1', 'Document 2', 'Document 3'],
+            })
+        }
+
 		return this.setState({
 			results: []
 		})
 	};
+
+
+	handleOnBlur = () => {
+		this.setState({ results: []});
+	}
 
 	render() {
 
@@ -43,7 +54,6 @@ class OmniSearch extends Component {
                     </ul>
 				</div>
 			</Fragment>
-
 		)
 	}
 }
