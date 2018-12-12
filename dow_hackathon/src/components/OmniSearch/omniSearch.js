@@ -23,10 +23,21 @@ class OmniSearch extends Component {
             })
 		}
 
+        if (results.length === 2) {
+            return this.setState({
+                results: ['Document 1', 'Document 2', 'Document 3'],
+            })
+        }
+
 		return this.setState({
 			results: []
 		})
 	};
+
+
+	handleOnBlur = () => {
+		this.setState({ results: []});
+	}
 
 	render() {
 
@@ -36,7 +47,7 @@ class OmniSearch extends Component {
 
 		return (
 			<Fragment>
-				<input type="text" name="Search Anywhere" className="omniSearch" onChange={this.handleOnChange}/>
+				<input type="text" name="Search Anywhere" className="omniSearch" onChange={this.handleOnChange} onBlur={this.handleOnBlur}/>
 				<div>
 					{results}
 				</div>
