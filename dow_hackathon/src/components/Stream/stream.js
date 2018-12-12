@@ -7,7 +7,7 @@ const Stream = (props) => {
     return (
         <section className="streamer">
             <h3> DJ Academy </h3>
-            <div speed={5000}>
+            <TextLoop speed={5000}>
                 <div className="stream stream__container">
                     <div className="stream--item">
                     <span className="stream--image">
@@ -63,7 +63,7 @@ const Stream = (props) => {
                         <span className="stream--summary"> Starting Dec 24th at 5.00PM GMT</span>
                     </div>
                 </div>
-            </div>
+            </TextLoop>
         </section>
     )
 };
