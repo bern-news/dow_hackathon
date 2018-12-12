@@ -37,8 +37,10 @@ class OmniSearch extends Component {
 		return (
 			<Fragment>
 				<input type="text" name="Search Anywhere" className="omniSearch" onChange={this.handleOnChange}/>
-				<div>
-					{results}
+				<div className="results">
+                    <ul>
+                        <li>{results}</li>
+                    </ul>
 				</div>
 			</Fragment>
 
