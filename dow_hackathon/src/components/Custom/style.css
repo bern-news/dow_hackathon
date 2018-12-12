@@ -1,10 +1,10 @@
 .custom--component {
-    border: 1px dashed white;
+    border: 1px dashed #233750;
     padding: 5rem;
     text-align: center;
     margin-top: 1rem;
 }
 
 .custom--component__text {
-    color: white;
+    color: #233750;
 }
