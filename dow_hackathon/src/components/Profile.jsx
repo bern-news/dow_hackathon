@@ -17,7 +17,7 @@ class Profile extends React.Component {
   <img src={this.props.imageSrc} className="profilePic w3-bar-item w3-circle" />
   <div className="w3-bar-item footer-grid-profile-column-profile-div">
     <span className="w3-large profilePic-span1 ">{this.props.name}</span><br/>
-    <span className="profilePic-span2">Web Designer</span>
+    <span className="profilePic-span2">{this.props.title}</span>
   </div>
 </div>
     );
