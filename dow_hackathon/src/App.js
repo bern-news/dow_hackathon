@@ -3,7 +3,7 @@ import Calendar from './components/Calendar';
 import Stream from "./components/Stream";
 import Custom from "./components/Custom";
 import Legend from './components/Legend';
-import Event from './components/EventFeed';
+import Event from './components/EventFeed/index';
 import dow_logo from './dlaunch.png';
 import WorldClock from './components/WorldClock/worldClock';
 import './App.css';
