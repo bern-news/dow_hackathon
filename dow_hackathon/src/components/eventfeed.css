@@ -4,13 +4,19 @@ section.event-feed {
     border-radius: 4px;
 }
 
-.mdl-list__item,
-.mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
+section.event-feed .mdl-list__item,
+section.event-feed .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
     color: white;
 }
 
-.mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
+section.event-feed  .mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
     font-size: 9pt;
+    margin-left: 45px;
+}
+section.event-feed .mdl-list__item--two-line img {
+    display: block;
+    float: left;
+    margin-right: 20px;
 }
 
 section.event-feed h3 {
@@ -19,7 +25,3 @@ section.event-feed h3 {
     padding: 0;
     margin-bottom: 0px;
 }
-
-/* section.event-feed img {
-    margin: 0px 10px 20px 0px;
-} */
