@@ -17,12 +17,12 @@
 }
 
 .CalendarContainer .legend li {
-    float: left;
-    width: 25%;
+    display: inline-block;
+    width: 120px;
     color: white;
     text-align: left;
     font-size: 1.1em;
-    max-width: 85px;
+    /*max-width: 85px;*/
 }
 
 .CalendarContainer .legend li::before {
