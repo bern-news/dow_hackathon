@@ -2,7 +2,15 @@ section.event-feed {
     background-color: #0092e1;
     padding: 1px 20px;
     border-radius: 4px;
+}
+
+.mdl-list__item,
+.mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
     color: white;
+}
+
+.mdl-list__item--two-line .mdl-list__item-primary-content .mdl-list__item-sub-title {
+    font-size: 9pt;
 }
 
 section.event-feed h3 {
