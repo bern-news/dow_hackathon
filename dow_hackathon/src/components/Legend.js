@@ -5,10 +5,10 @@ class Legend extends Component {
         return (  
             <div className="legend">
                 <ul>
-                    <li>Social Events</li>
-                    <li>Local Events</li>
-                    <li>Global Holidays</li>
-                    <li>Training Events</li>
+                    <li>Social</li>
+                    <li>Local</li>
+                    <li>Holidays</li>
+                    <li>Training</li>
                 </ul>
             </div>
         )
