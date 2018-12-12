@@ -6,7 +6,7 @@ require('./style.css');
 const Stream = (props) => {
     return (
         <section className="streamer">
-            <h3> DJ Academy </h3>
+            <h3> Dj academy </h3>
             <TextLoop speed={5000}>
                 <div className="stream stream__container">
                     <div className="stream--item">

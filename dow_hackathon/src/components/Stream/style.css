@@ -14,16 +14,16 @@
 .stream--image {
     padding: 0.5rem;
     opacity: 0.8;
-    border: 1px solid white;
     border-radius: 3px;
     position: absolute;
+    top: 6px;
 
 }
 
 .stream--title {
     display: block;
     position: relative;
-    margin-left: 2.7rem;
+    margin-left: 50px;
 }
 
 .stream--item {
@@ -38,6 +38,6 @@
     font-size: 11px;
     opacity: 0.8;
     display: block;
-    margin-left: 2.7rem;
+    margin-left: 50px;
     position: relative;
 }
