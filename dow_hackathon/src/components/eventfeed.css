@@ -1,6 +1,13 @@
 section.event-feed {
-    height: 600px;
     background-color: #0092e1;
     padding: 1px 20px;
     border-radius: 4px;
+    color: white;
+}
+
+section.event-feed h3 {
+    text-align: center;
+    font-size: 18pt;
+    padding: 0px;
+    margin-bottom: 0px;
 }
