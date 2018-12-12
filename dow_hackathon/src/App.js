@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Calendar from './components/Calendar';
 import Stream from "./components/Stream";
 import Custom from "./components/Custom";
@@ -12,38 +12,48 @@ import OmniSearch from './components/OmniSearch';
 import Footer from "./components/Footer";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="dj-trending-header">
-          <div className="mdl-grid">
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"><img src={dow_logo} className="App-logo" alt="logo" /></div>
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"></div>
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"><OmniSearch/></div>
-          </div>
-        </header>
-        <WorldClock className="worldClock"/>
-        <div className="dj-trending-body">
-          <div className="mdl-grid">
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> <Event /></div>
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
-            <div className="CalendarContainer">
-                <Calendar/>
-                <Legend/>
-              </div>
+    render() {
+        return (
+            <div className="App">
+                <header className="dj-trending-header">
+                    <div className="mdl-grid">
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+                            <img src={dow_logo} className="App-logo" alt="logo"/>
+                        </div>
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"/>
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+                            <OmniSearch/></div>
+                    </div>
+                </header>
+
+                <WorldClock className="worldClock"/>
+
+                <div className="dj-trending-body">
+                    <div className="mask" />
+                    <div className="mdl-grid">
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"><Event/>
+                        </div>
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+                            <div className="CalendarContainer">
+                                <Calendar/>
+                                <Legend/>
+                            </div>
+                        </div>
+                        <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
+                            <Stream/>
+                        </div>
+                    </div>
+                </div>
+
+                <footer>
+                    <Footer/>
+                </footer>
+
             </div>
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
-                <Stream/>
-                <Custom />
-            </div>
-          </div>
-        </div>
-        <footer>
-        <Footer/>
-        </footer>
-      </div>
-    );
-  }
+
+
+        );
+    }
 }
 
 export default App;

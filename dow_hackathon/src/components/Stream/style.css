@@ -3,9 +3,11 @@
     background-color: #0092e1;
     padding: 1px 20px;
     border-radius: 4px;
+    z-index: 9999;
 }
 
 .stream__container {
+    z-index: 9999;
 
 }
 

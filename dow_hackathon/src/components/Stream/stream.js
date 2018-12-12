@@ -7,12 +7,12 @@ const Stream = (props) => {
     return (
         <section className="streamer">
             <h3> DJ Academy </h3>
-            <TextLoop>
+            <div speed={5000}>
                 <div className="stream stream__container">
                     <div className="stream--item">
-                <span className="stream--image">
-                    <img src="/camera.svg" alt="" width="15" height="15"/>
-                </span>
+                    <span className="stream--image">
+                        <img src="/camera.svg" alt="" width="15" height="15"/>
+                    </span>
                         DJ Springboard Presentation
                         <span className="stream--summary"> Ended Nov 20th at 6.00PM GMT</span>
                     </div>
@@ -62,22 +62,8 @@ const Stream = (props) => {
                         Global Wellness Day: Senior Leader Panel Discussion
                         <span className="stream--summary"> Starting Dec 24th at 5.00PM GMT</span>
                     </div>
-                    <div className="stream--item">
-                <span className="stream--image">
-                    <img src="/camera.svg" alt="" width="15" height="15"/>
-                </span>
-                        Blockchain 101 PT1
-                        <span className="stream--summary"> Starting Dec 24th at 5.00PM GMT</span>
-                    </div>
-                    <div className="stream--item">
-                <span className="stream--image">
-                    <img src="/camera.svg" alt="" width="15" height="15"/>
-                </span>
-                        Blockchain 101 PT2
-                        <span className="stream--summary"> Starting Dec 25th at 5.00PM GMT</span>
-                    </div>
                 </div>
-            </TextLoop>
+            </div>
         </section>
     )
 };
