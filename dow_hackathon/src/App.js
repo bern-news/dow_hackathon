@@ -31,7 +31,8 @@ class App extends Component {
         <div className="dj-trending-body">
         <div className="mask" />
           <div className="mdl-grid">
-            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> <Event /></div>
+            <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet"> <Event />
+            </div>
             <div className="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-cell--4-col-tablet">
             <div className="CalendarContainer">
                 <Calendar/>

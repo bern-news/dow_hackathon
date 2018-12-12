@@ -2,9 +2,27 @@
 
   margin-top:10px;
 }
-.footer-grid-profile-column{
 
-  border-right:thin solid red;
+
+.footer-grid {
+  /* margin-top:50px; */
+}
+
+.footer-grid-coloumn{
+
+  border-right:thin dashed #233750;
+
+
 }
  
+
+.footer-grid-container {
+margin-top:-30px;
+
+}
+
+.footer-grid-container-h1 {
+  opacity: 0.8;
+  
+  }
 

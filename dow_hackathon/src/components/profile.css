@@ -44,3 +44,12 @@ button:hover, a:hover {
   max-width:90px;
 
 }
+
+.profilePic-span1 {
+
+  font-weight:500;
+}
+
+.profilePic-span2 {
+  opacity: 0.8;
+}
